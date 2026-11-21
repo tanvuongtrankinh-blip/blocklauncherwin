@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>BlockLauncher</AssemblyName>
+    <RootNamespace>BlockLauncher.App</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlockLauncher.Core\BlockLauncher.Core.csproj" />
+    <None Update="Scripts\*.js" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>BlockLauncher.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Jint" Version="3.1.6" />
+    <EmbeddedResource Include="ModPeConstants.js" LogicalName="ModPeConstants.js" />
+    <EmbeddedResource Include="ModPePrelude.js" LogicalName="ModPePrelude.js" />
+  </ItemGroup>
+</Project>
